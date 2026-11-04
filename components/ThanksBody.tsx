@@ -17,9 +17,9 @@ export default function ThanksBody() {
         <CheckCircle2 className="mx-auto h-14 w-14 text-wa" />
         <h1 className="mt-4 text-2xl font-bold text-navy">شكرًا{name ? ` يا ${name}` : ""}!</h1>
         <p className="mt-3 leading-8 text-ink/70">
-          {via === "call"
-            ? "بنحوّلك للمكالمة دلوقتي. لو المكالمة متفتحتش، دوس على زرار الاتصال تحت."
-            : "اتفتحلك الواتساب برسالة جاهزة، ابعتها وهنرد عليك بتفاصيل المبنى الجديد ونظام الحجز."}
+          {via === "whatsapp"
+            ? "اتفتحلك الواتساب برسالة جاهزة، ابعتها وهنرد عليك بتفاصيل المبنى الجديد ونظام الحجز."
+            : "استلمنا بياناتك، وفريقنا هيتواصل معاك في أقرب وقت بتفاصيل المبنى الجديد ونظام الحجز بـ EOI 200 ألف."}
         </p>
         {unit && (
           <div className="mt-5 rounded-2xl bg-sand p-4 text-sm">

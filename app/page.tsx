@@ -1,6 +1,6 @@
 import {
   Building2, Cable, Check, Drama, Eye, Fish, Flag, Glasses, Lightbulb, MapPin,
-  MonitorPlay, ShoppingBag, Store, Theater, Trees, ChevronDown, type LucideIcon,
+  MonitorPlay, ShoppingBag, Store, Theater, ChevronDown, type LucideIcon,
 } from "lucide-react";
 import Header from "@/components/Header";
 import LeadForm from "@/components/LeadForm";
@@ -9,7 +9,7 @@ import { C } from "@/lib/content";
 import { SITE } from "@/lib/site";
 
 const ICONS: Record<string, LucideIcon> = {
-  Cable, Lightbulb, Fish, Glasses, ShoppingBag, Drama, Eye, Store, Building2, Theater, Flag, MonitorPlay, Trees,
+  Cable, Lightbulb, Fish, Glasses, ShoppingBag, Drama, Eye, Store, Building2, Theater, Flag, MonitorPlay,
 };
 
 function Head({ kicker, title, sub, light = false, center = false }: { kicker: string; title: string; sub?: string; light?: boolean; center?: boolean }) {
@@ -59,7 +59,6 @@ export default function Page() {
               <h1 className="mt-5 text-4xl font-extrabold leading-tight sm:text-5xl lg:text-6xl">
                 {C.hero.title}
               </h1>
-              <p className="mt-3 font-latin text-xl font-semibold text-gold-2 sm:text-2xl" dir="auto">{C.hero.titleSub}</p>
               <p className="mt-5 max-w-xl text-lg leading-8 text-white/80">{C.hero.body}</p>
               <div className="mt-8 grid max-w-xl grid-cols-3 gap-3">
                 {C.hero.badges.map((b) => (
