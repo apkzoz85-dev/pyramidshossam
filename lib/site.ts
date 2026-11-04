@@ -3,11 +3,11 @@
 // ============================================================
 export const SITE = {
   // الدومين النهائي (بدون / في الآخر) — غيّره قبل الرفع
-  url: process.env.NEXT_PUBLIC_SITE_URL ?? "https://pyramids-city.vercel.app",
+  url: process.env.NEXT_PUBLIC_SITE_URL ?? "https://pyramidsdevelopments.org",
   brand: "Grandeur Spaces",
   phone: "01065159906",
   // Web3Forms access key — من web3forms.com
-  web3formsKey: "YOUR_WEB3FORMS_ACCESS_KEY",
+  web3formsKey: "be25d795-5d0b-40e8-b23b-68070068bfeb",
   phoneIntl: "+201065159906",
   whatsapp: "201065159906",
   project: "Pyramids City",
