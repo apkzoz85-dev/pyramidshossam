@@ -15,7 +15,7 @@ export const SITE = {
   developer: "Pyramids Developments",
   // Google Tag Manager / Google Ads — حط الأكواد هنا
   gtmId: "", // مثال: GTM-XXXXXXX
-  adsId: "", // مثال: AW-XXXXXXXXXX
+  adsId: "AW-18505247132", // مثال: AW-XXXXXXXXXX
   conversions: {
     form: "", // مثال: AW-XXXXXXXXXX/abcDEF
     whatsapp: "",
