@@ -17,9 +17,9 @@ export const SITE = {
   gtmId: "", // مثال: GTM-XXXXXXX
   adsId: "AW-18505247132", // مثال: AW-XXXXXXXXXX
   conversions: {
-    form: "", // مثال: AW-XXXXXXXXXX/abcDEF
-    whatsapp: "",
-    call: "",
+    form: "AW-18505247132/q4tKCPTPg5gdEJzT_vdE", // مثال: AW-XXXXXXXXXX/abcDEF
+    whatsapp: "AW-18505247132/GqcdCI6IlpodEJzT_vdE",
+    call: "AW-18505247132/eOnGCPuIlJodEJzT_vdE",
   },
 };
 
